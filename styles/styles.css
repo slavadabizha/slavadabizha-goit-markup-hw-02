@@ -1,0 +1,181 @@
+/* font-family: 'Montserrat',
+sans-serif;
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+:root {
+    /* iris */
+    --primary-brand: #4d5ae5;
+    /* navy blue  */
+    --dark: #2e2f42;
+    /* green */
+    --success: #31d0aa;
+    /* slate  */
+    --text: #434455;
+    /* ligth slate  */
+    --subtle-text: #8e8f99;
+    /* cornflower  */
+    --accent: #e7e9fc;
+    /* cloud  */
+    --light: #f4f4fd;
+}
+    
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: #ffffff;
+
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--dark);
+    text-transform: uppercase;
+}
+
+.foot-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--light);
+    text-transform: uppercase;
+
+}
+
+.low-logo {
+    color: var(--primary-brand);
+    text-transform: uppercase;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-family: 'Roboto';
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark);
+
+}
+
+.nav-links:hover,
+.nav-links:focus {
+    color: var(--primary-brand);
+
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--primary-brand);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    background-color: var(--light);
+    color: var(--primary-brand);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--primary-brand);
+    color: #ffffff
+}
+
+.card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.card-text {
+    font-family: 'Roboto';
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-button {
+    background-color: var(--primary-brand);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--primary-brand);
+    color: #ffffff
+}
+
+.team-list {
+    background-color: var(--light);
+}
+
+.team-list-item {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: var(--dark);
+}
+
+.footer-text {
+    color: var(--accent);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero {
+    background-color: var(--dark);
+}
+
+.hero-title {
+
+
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+}
